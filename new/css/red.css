@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -25,13 +25,13 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #FA5555;
+  color: #e9031f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FA5555;
+  color: #e9031f;
   outline: none;
   text-decoration: none;
 }
@@ -88,9 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: #FA5555;
+  background: #e9031f;
   color: #fff;
-  border: 2px solid #FA5555;
+  border: 2px solid #e9031f;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #fb6e6e !important;
@@ -98,11 +98,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #FA5555;
-  border: 2px solid #FA5555;
+  color: #e9031f;
+  border: 2px solid #e9031f;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #FA5555;
+  background: #e9031f;
   color: #fff;
 }
 
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FA5555;
+  border-color: #e9031f;
 }
 
 body {
@@ -273,7 +273,7 @@ body {
   color: white;
 }
 #fh5co-header #fh5co-logo a span {
-  color: #FA5555;
+  color: #e9031f;
 }
 #fh5co-header nav {
   position: relative;
@@ -459,7 +459,7 @@ body {
   width: 50px;
   height: 50px;
   margin: 0 auto;
-  background: #FA5555;
+  background: #e9031f;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -673,7 +673,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   font-size: 50px;
-  color: #FA5555;
+  color: #e9031f;
 }
 #fh5co-features .fh5co-feature h3 {
   font-size: 20px;
@@ -710,7 +710,7 @@ body {
 }
 #fh5co-features-2 .fh5co-feature .fh5co-icon i, #fh5co-features-3 .fh5co-feature .fh5co-icon i, #fh5co-features-4 .fh5co-feature .fh5co-icon i {
   font-size: 40px;
-  color: #FA5555;
+  color: #e9031f;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features-2 .fh5co-feature .fh5co-icon i, #fh5co-features-3 .fh5co-feature .fh5co-icon i, #fh5co-features-4 .fh5co-feature .fh5co-icon i {
@@ -930,7 +930,7 @@ body {
 }
 
 #fh5co-info {
-  background: #FA5555;
+  background: #e9031f;
 }
 #fh5co-info .fh5co-label {
   color: rgba(255, 255, 255, 0.5);
@@ -958,7 +958,7 @@ body {
   border-radius: 5px;
 }
 #fh5co-pricing .price-box.popular {
-  border: 2px solid #FA5555;
+  border: 2px solid #e9031f;
 }
 #fh5co-pricing .price-box.popular .popular-text {
   top: 0;
@@ -967,7 +967,7 @@ body {
   margin-top: -2em;
   position: absolute;
   padding: 4px 20px;
-  background: #FA5555;
+  background: #e9031f;
   color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -981,7 +981,7 @@ body {
   left: 50%;
   margin-left: -10px;
   border-top: 10px solid black;
-  border-top-color: #FA5555;
+  border-top-color: #e9031f;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -1118,7 +1118,7 @@ body {
 }
 .fh5co-social li a:hover {
   text-decoration: none !important;
-  color: #FA5555 !important;
+  color: #e9031f !important;
 }
 
 .fh5co-person {
@@ -1205,7 +1205,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-offcanvas ul li.active a {
-  color: #FA5555;
+  color: #e9031f;
 }
 
 .fh5co-nav-toggle {

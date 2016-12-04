@@ -508,6 +508,7 @@ body {
 #fh5co-testimonials,
 #fh5co-about,
 #fh5co-subscribe,
+#get-quote,
 #fh5co-info,
 #fh5co-pricing,
 #fh5co-faqs,
@@ -524,6 +525,7 @@ body {
   #fh5co-testimonials,
   #fh5co-about,
   #fh5co-subscribe,
+  #get-quote,
   #fh5co-info,
   #fh5co-pricing,
   #fh5co-faqs,
@@ -851,11 +853,12 @@ body {
   border-radius: 0;
 }
 
-#fh5co-subscribe {
+#fh5co-subscribe, #get-quote {
   background: #f9f9f9;
   padding: 3em 0;
 }
-#fh5co-subscribe h3 {
+#fh5co-subscribe h3,
+#get-quote h3 {
   float: left;
   width: 30%;
   top: 10px;
@@ -863,11 +866,13 @@ body {
   margin-bottom: 0;
   position: relative;
 }
-#fh5co-subscribe h3 label {
+#fh5co-subscribe h3 label,
+#get-quote h3 label{
   font-weight: 300;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-subscribe h3 {
+  #fh5co-subscribe h3,
+  #get-quote h3 {
     width: 100%;
     margin-bottom: 30px;
   }
@@ -1439,14 +1444,80 @@ body {
   opacity: 0;
 }
 
-.logo-icon {
+.container-icon {
   display: block;
   margin: 0 auto;
+  background: white;
+  width: 200px;
+  height: 110px;
+  margin-top: -34px;
+  border-radius: 2em;
+  padding: .15em 0;
+}
+
+.logo-icon {
+  display: block;
   background: url(../images/logo.png) no-repeat;
   background-size: contain;
   background-position: 50%;
-  width: 270px;
-  height: 140px;
-  margin-top: -34px;
+  width: 200px;
+  height: 100px;
+}
+
+#fh5co-hero .fh5co-intro > div .btn-outline {
+  font-size: 19px;
+}
+
+#fh5co-projects .fh5co-project-item img {
+  max-height: 220px;
+}
+
+#fh5co-testimonials .fh5co-label {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+#fh5co-features, #fh5co-testimonials, #fh5co-footer, #fh5co-features-2, #fh5co-features-3 {
+  background-color: #eee !important;
+}
+
+.fh5co-copyright {
+  background-color: white;
+}
+
+.fh5co-quote .container{
+  text-align: center;
+}
+
+.fh5co-quote .container span{
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+#fh5co-about .container .fh5co-person {
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+#fh5co-features-3 .container figure img {
+  max-width: 500px;
+}
+
+#fh5co-about .container .fh5co-person p {
+  padding: 1em;
+}
+
+#fh5co-features-3 {
+  border-top: 5px solid #777;
+}
+
+#fh5co-features-2 .container figure img,
+#fh5co-features-3 .container figure img {
+  max-width: 500px;
+}
+
+#fh5co-features-3 .container figure img {
+  position: relative;
+  left: 125%;
 }
 /*# sourceMappingURL=style.css.map */
