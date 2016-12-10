@@ -221,7 +221,7 @@
 }());
 
 
-var cols = $('#fh5co-hero .fh5co-intro > div h2.hero').length;
+var cols = $('#fh5co-hero .fh5co-intro > div h2.hero').length - 1;
 var cPos = 0;
 
 $(document).ready(function() {
@@ -242,37 +242,3 @@ function swapC() {
 		$(y).show()
     window.setTimeout(function() { swapC() }, 5000)
 }
-
-// $(document).ready(function() {
-//   $('#fh5co-hero .fh5co-intro > div h2').hide()
-//   function runIt(x) {
-// 		var y;
-//     $('#fh5co-hero .fh5co-intro > div h2').hide()
-// 		y = $('#fh5co-hero .fh5co-intro > div h2')[x]
-// 		$(y).show()
-// 		// switch (x) {
-// 		// 	case 1:
-// 		// 	y $('#fh5co-hero .fh5co-intro > div h2')[1].show()
-// 		// 	break;
-// 		// 	case 2:
-// 		// 	$('#fh5co-hero .fh5co-intro > div h2')[2].show()
-// 		// 	break;
-// 		// 	case 3:
-// 		// 	$('#fh5co-hero .fh5co-intro > div h2')[3].show()
-// 		// 	break;
-// 		// 	case 4:
-// 		// 	$('#fh5co-hero .fh5co-intro > div h2')[4].show()
-// 		// 	break;
-// 		// 	case 5:
-// 		// 	$('#fh5co-hero .fh5co-intro > div h2')[5].show()
-// 		// 	break;
-// 		// 	default:
-// 		// }
-//
-//   }
-//   setTimeout(runIt(1), 1000);
-//   setTimeout(runIt(2), 5000);
-//   setTimeout(runIt(3), 10000);
-//   setTimeout(runIt(4), 15000);
-//   setTimeout(runIt(5), 20000);
-// });
