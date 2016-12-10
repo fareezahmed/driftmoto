@@ -669,6 +669,12 @@ body {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+#fh5co-features .fh5co-feature .fh5co-icon img {
+  width: 110px;
+  height: 110px;
+}
+
 #fh5co-features .fh5co-feature .fh5co-icon i {
   position: relative;
   top: -1px;
@@ -1520,4 +1526,68 @@ body {
   position: relative;
   left: 125%;
 }
+
+#fh5co-header nav .right-menu a {
+  font-size: 2em;
+  color: white;
+}
+#fh5co-header nav .right-menu a:hover,
+#fh5co-header nav .right-menu a:focus {
+  font-size: 2em;
+  color: #eee;
+}
+
+#fh5co-hero .fh5co-intro > div h2.hero {
+    position: absolute;
+    top: 40vh;
+    font-weight: 500 !important;
+}
+
+#fh5co-projects .fh5co-project-item .fh5co-text ul li {
+  text-align: left;
+  color: #85919d;
+}
+
+#fh5co-projects .fh5co-project-item {
+  min-height: 900px;
+}
+
+@media only screen and (max-width: 900px) {
+  #fh5co-header nav .right-menu a {
+    font-size: 1.5em;
+  }
+  #fh5co-header #fh5co-logo a span.container-icon {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  #fh5co-header #fh5co-logo a span.container-icon {
+    margin-top: 0;
+  }
+}
+/*#fh5co-hero .fh5co-intro > div .btn-outline {
+  margin-top: 11em;
+}*/
+
+/*#fh5co-hero .fh5co-intro > div h2:first-child {
+  opacity: 0;
+  animation: fadeIn 10s linear infinite;
+}
+#fh5co-hero .fh5co-intro > div h2:nth-child(2){
+  opacity: 0;
+  animation: fadeIn 10s linear 3s infinite;
+}
+#fh5co-hero .fh5co-intro > div h2:nth-child(3) {
+  opacity: 0;
+  animation: fadeIn 10s linear 4.5s infinite;
+}
+#fh5co-hero .fh5co-intro > div h2:nth-child(4){
+  opacity: 0;
+  animation: fadeIn 10s linear 6.5s infinite;
+}
+#fh5co-hero .fh5co-intro > div h2:nth-child(5){
+  opacity: 0;
+  animation: fadeIn 10s linear 8.5s infinite;
+}*/
 /*# sourceMappingURL=style.css.map */
